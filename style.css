@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.349);
+}
+
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.blog{
+    width: 70%;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.items{
+   margin-left: 4rem;
+}
+.items a{
+    padding: 0.4rem 0.4rem;
+    text-decoration: none;
+    
+}
+.items input{
+    margin: 1rem 0.5rem;
+    padding: 0.4rem 0rem;
+}
+
+.gray{
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+}
+
+.white{
+    background-color: white
+}
+span{
+    color: blue;
+    font-size: 1.2rem;
+}
+
+/*################# nav bar ####################*/
+
+.ul{
+    border: 2px solid green;
+    
+}
+.nav{
+    background-color: rgba(0, 0, 0, 0.432);
+    margin-top: 3rem;
+    padding: 0.3rem 0rem; 
+}
+.item{
+    display: flex;
+    margin: 0px auto;
+   width: 800px;
+  
+   justify-content:space-between ;
+   
+}
+.item li{
+     padding: 0.4rem 1.3rem; 
+     /* margin: 0.5rem 2rem;   */
+     font-size: 1.2rem;
+     list-style: none; 
+     background-color: rgba(0, 0, 0, 0.274);
+     color: white;
+}
+
+.item li:hover{
+    color: paleturquoise;
+}
+
+/*################## section #########################*/ 
+
+.section{
+    display: flex;
+    height: 400px;
+    margin: 0 auto;
+    background-color:rgba(211, 211, 211, 0.808);
+}
+.section .spec{
+    font-size:x-large;
+    padding: 0.4rem;
+   
+    font-size: 1.2rem;
+}
+
+.section div{
+    width: 33.33333333333%;
+    padding: 1rem;
+}
+.div2 img{
+    margin-top: 2rem;
+}
+.section tr{
+    font-size: 0.9rem;
+}
